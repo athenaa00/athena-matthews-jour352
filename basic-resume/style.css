@@ -31,23 +31,23 @@ h2 {
   color: white;
   font-weight: 400;
 }
-
+/*these are my titles*/
 h3 {
   font-weight: 600;
   font-size: 1.5em;
 }
-
+/*this is my background*/
 h4 {
   font-weight: 400;
   font-size: 1.5em;
 }
-
+/*this is my date*/
 h5 {
   font-weight: 400;
-  font-size: 1em:
   font-style: italic;
+  font-size: 1em:
 }
-
+/*this is a list*/
 ul li {
   font-size: 1em;
 }
