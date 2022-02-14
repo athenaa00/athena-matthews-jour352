@@ -28,30 +28,52 @@ b {
   color: #33485e;
 }
 /*This is my subject*/
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: white;
   font-weight: 400;
+  margin: 20px 0 10px 0;
+  width: 70%;
+  min-width: 300px;
 }
 /*these are my titles*/
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 /*this is my background*/
-h4 {
+.organization {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 /*this is my date*/
-h5 {
+.date {
   font-weight: 400;
   font-style: italic;
-  font-size: 1em:
+  font-size: 1em;
+  margin-top: 2px;
 }
 /*these change my lists*/
 ul li {
   font-size: 1em;
+}
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+}
+
+#degrees {
+  margin: 5px 0 0 0;
+}
+
+#do {
+  margin: 5px 0 0 0;
 }
