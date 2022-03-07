@@ -7,15 +7,93 @@
 
   <title>Bootstrap Template</title>
   <meta name="description" content="Merrill College of Journalism, UMD">
-  <meta name="author" content="Adam Marton">
+  <meta name="author" content="Athena Matthews">
 
 <!-- Bootstrap CSS and JavaScript -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Space+Mono&display=swap" rel="stylesheet">
+
 </head>
-<body>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Athena Matthews</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" aria-current="page" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="#education">Education</a>
+      <a class="nav-item nav-link" href="#experience">Experience</a>
+      <a class="nav-item nav-link" href="#skills">Skills</a>
+    </div>
+  </div>
+</nav>
+
+<!--Dark Mode Hero-->
+<div class="bg-dark text-secondary px-4 py-5 text-center">
+   <div class="py-5">
+     <h1 class="display-5 fw-bold text-white">Athena Matthews</h1>
+     <div class="col-lg-6 mx-auto">
+       <p class="fs-5 mb-4">Broadcast Journalist and Production</p>
+       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+         <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Email Me</button>
+         <button type="button" class="btn btn-outline-light btn-lg px-4">LinkedIn</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="container">
+   <div class="row">
+     <div class="col-md-8">
+       <div class="sectionheader"><a name="experience">Experience</a></div>
+         <div class="jobtitle">Group Fitness Trainer</div>
+         <div class="organization">UMD Recwell Facilities</div>
+         <div class"date">August 2021-Present</div>
+         <ul>
+           <li>Certified Personal Trainer who motivates and encourages individuals to be active and well in group fitness classes.</li>
+           <li>Choreograph and plan adequate and effective workouts and movements to meet the needs and goals of the class.</li>
+         </ul>
+         <div class="jobtitle">Hostess</div>
+         <div class="organization">Matthews Diner</div>
+         <div class"date">June 2017-December 2019 </div>
+         <ul>
+           <li>Exhibited enthusiasm, proactivity, and good communication abilities to accommodate guests.</li>
+           <li>Assisted with marketing strategy creation and advertising initiatives to better promote facility to public.</li>
+         </ul>
+     </div>
+
+     <div class="col-md-4">
+       <div class="sectionheader"><a name="education">Education</a></div>
+         <ul id="degrees">
+           <li>Bachelor of Arts, Journalism, University of Maryland at College Park, 2020-Current</li>
+         </ul>
+     </div>
+
+     <div class="row">
+       <div class="col-md-8">
+       <div class="sectionheader"><a name="skils">Skills</a>
+         <ul id="do">
+           <li>Create and edit video</li>
+           <li>Leadership</li>
+           <li>Organized</li>
+           <li>Writing and communications</li>
+           <li>Video Production</li>
+           <li>Broadcast</li>
+           <li>Creativity</li>
+         </ul>
+       </div>
+   </div>
+ </div>
 
   </body>
-  </html>
+</html>
