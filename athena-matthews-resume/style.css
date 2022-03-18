@@ -1,0 +1,133 @@
+body {
+   margin: 0;
+   margin-bottom: 100px;
+   padding: 0;
+}
+
+.hero {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hero::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(broadcast.jpg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   filter: brightness(40%);
+}
+.hero-content {
+   position: relative;
+   font-family: "Monserrat", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+}
+.hero-title {
+   font-size: 5.5em;
+   font-weight: 700;
+   margin-bottom: 0;
+}
+.hero-subtitle {
+   font-size: 2rem;
+   font-weight: 300;
+   margin-top: 1rem;
+}
+.hero-button {
+   background-color: #BD249D;
+   color: white;
+   border: 1px solid #cb376a;
+   margin-top: 5rem;
+   padding: 0.9375rem1.875rem;
+   font-family: "Monserrat", sans-serif;
+   font-size: 1.5em;
+   font-weight: 300;
+   cursor: pointer;
+}
+.hero-button:hover {
+   background-color: #F554D4;
+   border: 1px solid #db7598;
+}
+
+.sectionheader {
+  font-size: 2em;
+  font-family: "Monserrat", sans-serif;
+  text-transform: uppercase;
+  background-color: #BD249D;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 60%;
+  min-width: 300px;
+}
+
+#education {
+  font-size: 25px;
+  font-family: "Monserrat", sans-serif;
+  text-align: center;
+  color: #373030;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  color: #373030;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+}
+
+.location {
+  font-size: 25px;
+  text-align: center;
+  color: #373030;
+  position: relative;
+}
+
+.time {
+  font-size: 20px;
+  text-align: center;
+  color: #373030;
+  position: relative;
+  font-style: italic;
+}
+
+.define {
+  font-size: 18px;
+  text-align: center;
+  color: #373030;
+  margin: 5px 0 0 0;
+  position: relative;
+  list-style-position: inside;
+}
+
+.line {
+  text-align: center;
+  color: #BD249D;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  font-family: "Monserrat", sans-serif;
+  background-color: #BD249D;
+  color: white;
+  text-align: left;
