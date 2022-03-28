@@ -1,0 +1,61 @@
+
+#masthead {
+  color: white;
+  position: relative;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 80%;
+  min-width: 300px;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#center {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#headline {
+  font-family: Georgia, Garamond;
+  font-size: 18px;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+.subhead {
+  font-family: Georgia, Garamond;
+  font-size: 15px;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/*The figcaption will provide as the source and description of the photo. It will be in italics with a relatively small font*/
+.images figcaption {
+  font-size: 10px;
+  font-style: italic;
+}
+
+blockquote {
+  font-size: 2em;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  text-align: center;
+}
