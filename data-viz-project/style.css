@@ -1,0 +1,73 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.sectionheader {
+  font-size: 1em;
+  font-family: Arial, Helvetica;
+  color: #0C49D9;
+  font-weight: 400;
+  padding: 3px;
+}
+
+.hero {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hero::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(flag.jpg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   filter: brightness(40%);
+}
+.hero-content {
+   position: relative;
+   font-family: "Monserrat", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+ }
+
+.images figcaption {
+     font-size: 12px;
+     font-style: italic;
+   }
+
+h1 {
+  font-family: Arial, Helvetica;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+blockquote {
+  font-size: 2em;
+  color: white;
+  background-color: #0C49D9;
+  padding: 3px;
+  text-align: center;
+}
